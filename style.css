@@ -1,0 +1,36 @@
+body {
+  font-family: "Nunito", sans-serif;
+  background-color: #eeeeee;
+}
+.container-space {
+  margin-top: 2rem;
+}
+.product-thumbnails {
+  margin-top: 2rem;
+}
+.product-thumbnails > ul {
+  list-style: none;
+  display: flex;
+  padding-left: 0;
+}
+.product-thumbnails > ul > li > img {
+  width: 100px;
+  margin-right: 1rem;
+}
+.thumbnail-active {
+  border: 2px solid #000;
+}
+.nav-link > img {
+  width: 40px;
+  border-radius: 8px;
+  margin-right: 10px;
+}
+.btn-custom-color {
+  border: 2px solid #4fc08d;
+  color: #4fc08d;
+}
+.btn-custom-color:hover {
+  border: 2px solid #4fc08d;
+  background-color: #4fc08d;
+  color: #ffffff;
+}
